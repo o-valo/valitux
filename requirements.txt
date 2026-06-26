@@ -1,0 +1,2 @@
+# Abhängigkeiten für Validus
+requests==2.31.0
