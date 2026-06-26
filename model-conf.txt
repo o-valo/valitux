@@ -1,0 +1,7 @@
+
+# Dein Ollama Endpoint
+ENDPOINT|http://10.7.0.86:11434/api/chat
+
+# Format: model|n_predict|temp|timeout|prompt
+llama3.1:8b | 512 | 0.1 | 120 | Schreibe nur Python-Code für Pi.
+qwen3.5:9b | 1024 | 0.0 | 1000 | Berechne die mathematische Kreiszahl Pi auf 100 Dezimalstellen mit Python decimal. Keine Hardware-Infos!
