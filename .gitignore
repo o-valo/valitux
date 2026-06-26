@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebungen (Wichtig: Nicht die venv hochladen!)
+venv/
+env/
+ENV/
+
+# Output-Dateien der KI (Das sind deine Test-Ergebnisse, kein Quellcode)
+out_*.py
+
+# Lokale Konfigurationsdateien (Hier stehen oft IPs oder Pfade drin)
+
+# System-Dateien
+.DS_Store
+.env
+
