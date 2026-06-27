@@ -66,3 +66,5 @@ Das Tool nutzt eine model-conf.txt Datei, um die Modelle, Parameter und Prompts 
     ENDPOINT|http://10.7.0.79:11434/api/generate
     # model|n_pred|temp|timeout|prompt
     qwen3.5:latest|500|0.7|60| Berechne die mathematische Kreiszahl Pi auf 100 Dezimalstellen mit Python decimal. Keine Hardware-Infos!
+
+    ### Validus wurde Hilfe von KI erstellt, 
