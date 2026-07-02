@@ -1,2 +1,2 @@
-# Abhängigkeiten für Validus
+# Abhängigkeiten für ValiTux
 requests==2.31.0
