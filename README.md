@@ -1,6 +1,6 @@
-# Validus 
+# ValiTux 
 
-Validus is a strict gating and validation tool for LLM-generated Python code. It ensures that only syntactically correct code reaches your local file system, automatically purging junk files and keeping your workspace clean.
+ValiTux is a strict gating and validation tool for LLM-generated Python code. It ensures that only syntactically correct code reaches your local file system, automatically purging junk files and keeping your workspace clean.
 Features
 
     Striktes Gating: Filters outputs for valid Python code.
@@ -24,8 +24,8 @@ Manual Installation
     Clone the repository:
     
 
-    git clone https://github.com/o-valo/validus.git
-    cd validus
+    git clone https://github.com/o-valo/valitux.git
+    cd valitux
 
     Create and activate virtual environment:
     
@@ -42,7 +42,7 @@ Manual Installation
 
 ### Configuration
 
-Validus reads from a model-conf.txt. Ensure your config file follows the structure:
+Valitus reads from a model-conf.txt. Ensure your config file follows the structure:
 Plaintext
 
     ENDPOINT|http://10.7.0.79:11434/api/generate
@@ -51,7 +51,7 @@ Plaintext
 
 #### German Summary (Deutsch)
 
-Validus ist ein striktes Gating- und Validierungstool für Python-Code, der von LLMs generiert wird. Es stellt sicher, dass nur syntaktisch korrekter Code auf deinem System gespeichert wird, indem es automatische Syntax-Checks durchführt und fehlerhafte Dateien sofort bereinigt.
+Valitux ist ein striktes Gating- und Validierungstool für Python-Code, der von LLMs generiert wird. Es stellt sicher, dass nur syntaktisch korrekter Code auf deinem System gespeichert wird, indem es automatische Syntax-Checks durchführt und fehlerhafte Dateien sofort bereinigt.
 
 ### Installation (Kurzform)
 
@@ -67,4 +67,4 @@ Das Tool nutzt eine model-conf.txt Datei, um die Modelle, Parameter und Prompts 
     # model|n_pred|temp|timeout|prompt
     qwen3.5:latest|500|0.7|60| Berechne die mathematische Kreiszahl Pi auf 100 Dezimalstellen mit Python decimal. Keine Hardware-Infos!
 
-    ### Validus wurde Hilfe von KI erstellt, 
+    ### Valitux wurde Hilfe von KI erstellt, 
