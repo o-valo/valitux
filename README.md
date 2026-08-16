@@ -67,4 +67,4 @@ Das Tool nutzt eine model-conf.txt Datei, um die Modelle, Parameter und Prompts 
     # model|n_pred|temp|timeout|prompt
     qwen3.5:latest|500|0.7|60| Berechne die mathematische Kreiszahl Pi auf 100 Dezimalstellen mit Python decimal. Keine Hardware-Infos!
 
-    ### Valitux wurde Hilfe von KI erstellt, 
+    ### Valitux wurde mit Hilfe von KI erstellt, 
